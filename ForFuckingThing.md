@@ -117,5 +117,13 @@ loss ： 一般就logloss、hingeloss，高端点的还有ranking 和 分类相�
 8. case分析：一般bow的分析方式是刨除word分析，别的也是类似，分析分数的diff差
 9. Input：term、bigram、双粒度分词等
 10. 词表构建：一般就是按count来，基本方法就count、TF-IDF、lasso等方法。基本就是无监督和有监督的两种。
+11. 数据构建：一般正例好找，就是按行为找，负例要不然就随机，要不然就按行为，还有可以按倒排找
+
+### 延伸
+
+1. 语义检索：cover tree（就是KNN啥的）
+2. 句子关系判定：SNLI
+3. 答案选择：Answer Selection
+4. 
 
 
